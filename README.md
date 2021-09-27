@@ -13,7 +13,7 @@ An OpenAPI definition can then be used by documentation generation tools to <u>d
 Generates UI(html) from _YAML(JSON)_ or _code_.
 
 * **Swagger Codegen**  
-Generates _server_ and _client stubs_ from OpenAPI Specification definitions .
+Generates _server_ and _client stubs_ from OpenAPI Specification definitions.
 
 * **Swagger Editor**  
 API editor for designing APIs with the OpenAPI Specification.
