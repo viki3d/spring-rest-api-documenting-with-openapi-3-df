@@ -1,4 +1,4 @@
-# spring-rest-api-documenting-with-openapi-3-df
+# spring-rest-api-documenting-with-openapi-3-df (Design First)
 
 ## OpenApi 3 + SwaggerUI
 
