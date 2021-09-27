@@ -9,15 +9,15 @@ The OpenAPI Specification (OAS) defines a standard, language-agnostic interface 
 An OpenAPI definition can then be used by documentation generation tools to <u>display the API</u>, <u>code generation</u> tools to generate servers and clients in various programming languages, <u>testing</u> tools, and many other use cases.  
 
 ## OpenApi 3 Tools
-* Swagger UI  
+* **Swagger UI**  
 Generates UI(html) from _YAML(JSON)_ or _code_.
 
-* Swagger Codegen
+* **Swagger Codegen**  
 Generates _server_ and _client stubs_ from OpenAPI Specification definitions .
 
-* Swagger Editor
-> API editor for designing APIs with the OpenAPI Specification.
+* **Swagger Editor**  
+API editor for designing APIs with the OpenAPI Specification.
 
-* Swagger Inspector
-> Test and generate API definitions from your browser in seconds.
+* **Swagger Inspector**  
+Test and generate API definitions from your browser in seconds.
 
