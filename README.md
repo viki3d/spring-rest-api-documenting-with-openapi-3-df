@@ -22,7 +22,7 @@ API editor for designing APIs with the OpenAPI Specification.
 ![openapi-swagger-editor.png](openapi-swagger-editor.png?id=1)
 
 * **Swagger Inspector**  
-Test and generate API definitions from your browser in seconds.  
+Test and generate API definitions from your browser in seconds. Apps like SwaggerHub can emulate server for you, so you can test the API even without having implementation.  
 ![openapi-swagger-inspector.png](openapi-swagger-inspector.png?id=1)
 
 ## This demo: spring-rest-api-documenting-with-openapi-3: _Design First_  
