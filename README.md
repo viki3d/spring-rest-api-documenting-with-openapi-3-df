@@ -21,3 +21,5 @@ API editor for designing APIs with the OpenAPI Specification.
 * **Swagger Inspector**  
 Test and generate API definitions from your browser in seconds.
 
+## This demo: spring-rest-api-documenting-with-openapi-3: _Design First_  
+
