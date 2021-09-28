@@ -10,19 +10,19 @@ An OpenAPI definition can then be used by documentation generation tools to <u>d
 
 ## OpenApi 3 Tools
 * **Swagger UI**  
-Generates UI(html) from _YAML(JSON)_ or _code_.
+Generates UI(html) from _YAML(JSON)_ or _code_.  
 ![openapi-swagger-ui.png](openapi-swagger-ui.png?id=1)
 
 * **Swagger Codegen**  
-Generates _server_ and _client stubs_ from OpenAPI Specification definitions.
+Generates _server_ and _client stubs_ from OpenAPI Specification definitions.  
 ![openapi-swagger-codegen.png](openapi-swagger-codegen.png?id=1)
 
 * **Swagger Editor**  
-API editor for designing APIs with the OpenAPI Specification.
+API editor for designing APIs with the OpenAPI Specification.  
 ![openapi-swagger-editor.png](openapi-swagger-editor.png?id=1)
 
 * **Swagger Inspector**  
-Test and generate API definitions from your browser in seconds.
+Test and generate API definitions from your browser in seconds.  
 ![openapi-swagger-inspector.png](openapi-swagger-inspector.png?id=1)
 
 ## This demo: spring-rest-api-documenting-with-openapi-3: _Design First_  
