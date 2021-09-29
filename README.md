@@ -33,7 +33,7 @@ SpringDoc — a tool that simplifies the generation and maintenance of API docs 
 SpringFox is a useful tool, which can automatically generate Swagger documentation based on your Spring controller and model classes. It can also recognize JSR-303 annotations, so you'll have also documented all the constraints on your model classes. It can also utilize core swagger classes such as @ApiModelProperty.  
 
 ## This demo: spring-rest-api-documenting-with-openapi-3: _Design First_  
-![spring-rest-api-documenting-with-openapi-3-df-1.png](spring-rest-api-documenting-with-openapi-3-df-1.png?id=1)
+![spring-rest-api-documenting-with-openapi-3-df-1.png](spring-rest-api-documenting-with-openapi-3-df-1.png?id=2)
 
 
 
