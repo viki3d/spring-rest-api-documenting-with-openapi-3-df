@@ -25,17 +25,18 @@ API editor for designing APIs with the OpenAPI Specification.
 Test and generate API definitions from your browser in seconds. Apps like SwaggerHub can emulate server for you, so you can test the API even without having implementation.  
 ![openapi-swagger-inspector.png](openapi-swagger-inspector.png?id=1)
 
-## This demo: spring-rest-api-documenting-with-openapi-3: _Design First_  
-
-
-
-
-### Documentation generation tools
+## Documentation generation tools
 * SpringDoc  
 SpringDoc — a tool that simplifies the generation and maintenance of API docs based on the OpenAPI 3 specification for Spring Boot 1.x and 2.x applications.  
 
 * Springfox  
 SpringFox is a useful tool, which can automatically generate Swagger documentation based on your Spring controller and model classes. It can also recognize JSR-303 annotations, so you'll have also documented all the constraints on your model classes. It can also utilize core swagger classes such as @ApiModelProperty.  
+
+## This demo: spring-rest-api-documenting-with-openapi-3: _Design First_  
+![spring-rest-api-documenting-with-openapi-3-df-1.png](spring-rest-api-documenting-with-openapi-3-df-1?id=1)
+
+
+
 
 
 
