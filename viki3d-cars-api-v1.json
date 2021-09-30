@@ -14,7 +14,7 @@
     "/api/v1/cars/{id}": {
       "get": {
         "tags": [
-          "cars-rest-controller"
+          "cars"
         ],
         "summary": "Get a car by id",
         "operationId": "get",
@@ -53,7 +53,7 @@
       },
       "put": {
         "tags": [
-          "cars-rest-controller"
+          "cars"
         ],
         "summary": "Replace car by id",
         "operationId": "replace",
@@ -98,7 +98,7 @@
       },
       "delete": {
         "tags": [
-          "cars-rest-controller"
+          "cars"
         ],
         "summary": "Delete car by id",
         "operationId": "delete",
@@ -133,7 +133,7 @@
       },
       "patch": {
         "tags": [
-          "cars-rest-controller"
+          "cars"
         ],
         "summary": "Update car by id",
         "operationId": "update",
@@ -180,7 +180,7 @@
     "/api/v1/cars": {
       "get": {
         "tags": [
-          "cars-rest-controller"
+          "cars"
         ],
         "summary": "Get all cars",
         "operationId": "list",
@@ -212,7 +212,7 @@
       },
       "post": {
         "tags": [
-          "cars-rest-controller"
+          "cars"
         ],
         "summary": "Add new car to database",
         "operationId": "add",

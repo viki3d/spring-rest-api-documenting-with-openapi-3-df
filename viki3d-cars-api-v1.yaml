@@ -9,7 +9,7 @@ paths:
   /api/v1/cars/{id}:
     get:
       tags:
-        - cars-rest-controller
+        - cars
       summary: Get a car by id
       operationId: get
       parameters:
@@ -33,7 +33,7 @@ paths:
           content: {}
     put:
       tags:
-        - cars-rest-controller
+        - cars
       summary: Replace car by id
       operationId: replace
       parameters:
@@ -60,7 +60,7 @@ paths:
                 type: string
     delete:
       tags:
-        - cars-rest-controller
+        - cars
       summary: Delete car by id
       operationId: delete
       parameters:
@@ -81,7 +81,7 @@ paths:
                 type: string
     patch:
       tags:
-        - cars-rest-controller
+        - cars
       summary: Update car by id
       operationId: update
       parameters:
@@ -109,7 +109,7 @@ paths:
   /api/v1/cars:
     get:
       tags:
-        - cars-rest-controller
+        - cars
       summary: Get all cars
       operationId: list
       responses:
@@ -129,7 +129,7 @@ paths:
                 type: string
     post:
       tags:
-        - cars-rest-controller
+        - cars
       summary: Add new car to database
       operationId: add
       requestBody:
