@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
      <groupId>com.viki3d.spring.rest.api.documenting</groupId>
-    <artifactId>spring-rest-api-documenting-with-openapi-3-df</artifactId>
+    <artifactId>spring-rest-api-generating-with-openapi-3</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
