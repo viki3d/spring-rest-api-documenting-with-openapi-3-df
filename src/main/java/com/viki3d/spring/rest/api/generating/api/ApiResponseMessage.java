@@ -1,4 +1,4 @@
-package com.viki3d.spring.rest.api.documenting.api;
+package com.viki3d.spring.rest.api.generating.api;
 
 import javax.xml.bind.annotation.XmlTransient;
 

@@ -1,4 +1,4 @@
-package com.viki3d.spring.rest.api.documenting.model;
+package com.viki3d.spring.rest.api.generating.model;
 
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;

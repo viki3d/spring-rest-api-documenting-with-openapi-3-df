@@ -1,4 +1,4 @@
-package com.viki3d.spring.rest.api.documenting;
+package com.viki3d.spring.rest.api.generating;
 
 import com.fasterxml.jackson.databind.util.ISO8601DateFormat;
 import com.fasterxml.jackson.databind.util.ISO8601Utils;

@@ -3,9 +3,9 @@
  * https://github.com/swagger-api/swagger-codegen
  * Do not edit the class manually.
  */
-package com.viki3d.spring.rest.api.documenting.api;
+package com.viki3d.spring.rest.api.generating.api;
 
-import com.viki3d.spring.rest.api.documenting.model.Car;
+import com.viki3d.spring.rest.api.generating.model.Car;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.enums.ParameterIn;

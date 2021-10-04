@@ -1,7 +1,7 @@
-package com.viki3d.spring.rest.api.documenting.api;
+package com.viki3d.spring.rest.api.generating.api;
 
-import com.viki3d.spring.rest.api.documenting.model.Car;
-import com.viki3d.spring.rest.api.documenting.services.mock.CarsMockService;
+import com.viki3d.spring.rest.api.generating.model.Car;
+import com.viki3d.spring.rest.api.generating.services.mock.CarsMockService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;

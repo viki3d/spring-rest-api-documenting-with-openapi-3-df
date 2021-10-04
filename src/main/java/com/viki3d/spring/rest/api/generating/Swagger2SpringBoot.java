@@ -1,4 +1,4 @@
-package com.viki3d.spring.rest.api.documenting;
+package com.viki3d.spring.rest.api.generating;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.ExitCodeGenerator;

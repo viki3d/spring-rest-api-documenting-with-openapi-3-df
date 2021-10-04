@@ -1,4 +1,4 @@
-package com.viki3d.spring.rest.api.documenting.configuration;
+package com.viki3d.spring.rest.api.generating.configuration;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

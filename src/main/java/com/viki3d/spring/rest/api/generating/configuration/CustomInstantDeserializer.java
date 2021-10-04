@@ -1,4 +1,4 @@
-package com.viki3d.spring.rest.api.documenting.configuration;
+package com.viki3d.spring.rest.api.generating.configuration;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonTokenId;

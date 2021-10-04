@@ -3,8 +3,8 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.viki3d.spring.rest.api.codegen</groupId>
-    <artifactId>rest-api-codegen</artifactId>
+    <groupId>com.viki3d.spring.rest.api.generating</groupId>
+    <artifactId>generate-with-maven</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     
     <properties>
@@ -35,13 +35,13 @@
 					<inputSpec>../viki3d-cars-api-v1.yaml</inputSpec>
 					<language>spring</language>
 					<output>${project.basedir}/generated-sources/</output>
-					<invokerPackage>com.viki3d.spring.rest.api.documenting</invokerPackage>
-					<apiPackage>com.viki3d.spring.rest.api.documenting.api</apiPackage>
-					<modelPackage>com.viki3d.spring.rest.api.documenting.api.model</modelPackage>
-					<artifactId>spring-rest-api-documenting-with-openapi-3-df</artifactId>
+					<invokerPackage>com.viki3d.spring.rest.api.generating</invokerPackage>
+					<apiPackage>com.viki3d.spring.rest.api.generating.api</apiPackage>
+					<modelPackage>com.viki3d.spring.rest.api.generating.api.model</modelPackage>
+					<artifactId>spring-rest-api-generating-with-openapi-3</artifactId>
 					<configOptions>
 						<library>spring-boot</library>
-						<configPackage>com.viki3d.spring.rest.api.documenting.configuration</configPackage>
+						<configPackage>com.viki3d.spring.rest.api.generating.configuration</configPackage>
 						<useTags>true</useTags>
 						<useBeanValidation>true</useBeanValidation>
 						<enable303>true</enable303>

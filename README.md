@@ -39,7 +39,7 @@ SpringFox is a useful tool, which can automatically generate Swagger documentati
 [Swagger Codegen - Server Stub Howto](https://github.com/swagger-api/swagger-codegen/wiki/Server-stub-generator-HOWTO#java-springboot)  
 
 ## This demo: spring-rest-api-documenting-with-openapi-3: _Design First_  
-![spring-rest-api-documenting-with-openapi-3-df-1.png](spring-rest-api-documenting-with-openapi-3-df-1.png?id=2)
+![spring-rest-api-documenting-with-openapi-3-1.png](spring-rest-api-documenting-with-openapi-3-df-1.png?id=2)
 
 
 

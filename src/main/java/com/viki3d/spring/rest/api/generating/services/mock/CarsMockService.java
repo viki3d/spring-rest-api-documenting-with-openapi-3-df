@@ -1,8 +1,8 @@
-package com.viki3d.spring.rest.api.documenting.services.mock;
+package com.viki3d.spring.rest.api.generating.services.mock;
 
-import com.viki3d.spring.rest.api.documenting.api.ApiResponseMessage;
-import com.viki3d.spring.rest.api.documenting.api.NotFoundException;
-import com.viki3d.spring.rest.api.documenting.model.Car;
+import com.viki3d.spring.rest.api.generating.api.ApiResponseMessage;
+import com.viki3d.spring.rest.api.generating.api.NotFoundException;
+import com.viki3d.spring.rest.api.generating.model.Car;
 
 import java.util.ArrayList;
 import java.util.List;
