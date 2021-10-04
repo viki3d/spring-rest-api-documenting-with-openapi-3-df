@@ -1,4 +1,5 @@
 # spring-rest-api-generating-with-openapi-3 (Design First Approach)
+![Design First Approach](https://github.com/viki3d/spring-rest-api-documenting-with-openapi-3)
 
 ## OpenApi 3 + SwaggerUI
 
