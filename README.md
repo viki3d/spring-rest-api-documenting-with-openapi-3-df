@@ -43,8 +43,26 @@ SpringFox is a useful tool, which can automatically generate Swagger documentati
 ![spring-rest-api-generating-with-openapi-3-1.png](spring-rest-api-generating-with-openapi-3-1.png?id=2)
 
 
+### generate-with-jar
+1. Get JAR
+> wget https://repo1.maven.org/maven2/io/swagger/codegen/v3/swagger-codegen-cli/3.0.27/swagger-codegen-cli-3.0.27.jar
 
+2. Help commands
 
+>	# List all generate options:  
+>	java -jar swagger-codegen-cli-3.0.27.jar generate -h  
 
+>	List all generate possible languages:  
+>	java -jar swagger-codegen-cli-3.0.27.jar generate -l help  
 
+>	List all generate additional-options:  
+>	java -jar swagger-codegen-cli.jar config-help -l spring  
+
+3. Usage examples
+
+> # Set model package  
+> java -jar swagger-codegen-cli-3.0.27.jar generate -i viki3d-cars-api-v1.yaml -o generated-sources --model-package com.viki3d.spring.rest.api.generating.api.model  
+
+> # Use external config file
+> java -jar swagger-codegen-cli-3.0.27.jar generate -i viki3d-cars-api-v1.yaml -o generated-sources -c config.json
 
