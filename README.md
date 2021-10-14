@@ -68,3 +68,7 @@ SpringFox is a useful tool, which can automatically generate Swagger documentati
 > \# Use external config file
 > java -jar swagger-codegen-cli-3.0.27.jar generate -i viki3d-cars-api-v1.yaml -o generated-sources -c config.json
 
+
+## OpenAPI Generator (openapi-generator-maven-plugin)
+OpenAPI Generator is a fork of <b>swagger-codegen</b> between versions 2.3.1 and 2.4.0. For this reason, much of the foundational concepts and offerings underlying OpenAPI Generator should feel quite familiar. The fork occurred for several reasons, as detailed in the OpenAPI Generator documentation. They mostly come down to simplicity in function, reduction in concurrent branch developments, and greater community ownership. This community involvement is significant and is a significant part of the OpenAPI Generator ethos.  
+
