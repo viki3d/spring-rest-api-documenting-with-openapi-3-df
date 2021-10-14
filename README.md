@@ -45,6 +45,8 @@ SpringFox is a useful tool, which can automatically generate Swagger documentati
 
 ## OpenAPI Swagger-Codegen (swagger-codegen-maven-plugin)
 
+![MavenRepo](https://repo1.maven.org/maven2/io/swagger/codegen/v3/swagger-codegen-cli/)  
+
 ### generate-with-jar
 1. Get JAR
 > wget https://repo1.maven.org/maven2/io/swagger/codegen/v3/swagger-codegen-cli/3.0.27/swagger-codegen-cli-3.0.27.jar
