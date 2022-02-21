@@ -3,3 +3,7 @@
 /.settings/
 /target/
 /.factorypath
+/generate-with-jar-openapi-generator/client/generated-sources/
+/generate-with-jar-openapi-generator/server/generated-sources/
+/generate-with-jar-swagger/client/generated-sources/
+/generate-with-jar-swagger/server/generated-sources/

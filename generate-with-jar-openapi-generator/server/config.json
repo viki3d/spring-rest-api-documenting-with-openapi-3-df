@@ -1,0 +1,14 @@
+{
+    "invokerPackage"  : "com.viki3d.spring.rest.api.generating",
+    "apiPackage"      : "com.viki3d.spring.rest.api.generating.api",
+    "modelPackage"    : "com.viki3d.spring.rest.api.generating.api.model",
+	"configPackage"   : "com.viki3d.spring.rest.api.generating.configuration",
+	"generatorName"   : "spring",
+	"library"         : "spring-boot",
+	"reactive"        : false,
+	"delegatePattern" : false,
+	"useTags"         : true,
+	"dateLibrary"     : "java8",
+	"developerName"   : "viki3d"
+
+}
