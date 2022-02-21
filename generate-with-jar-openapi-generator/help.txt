@@ -7,7 +7,7 @@ java -jar openapi-generator-cli-5.2.1.jar help generate
 # List all supported languages  
 java -jar openapi-generator-cli-5.2.1.jar list  
   
-# List library list for given generator:  
+# Show all options for given generator, including list of supported values for 'library' :  
 java -jar openapi-generator-cli-5.2.1.jar config-help --generator-name java  
 
 library
