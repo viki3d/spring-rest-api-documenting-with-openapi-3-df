@@ -89,9 +89,31 @@
 							<apiPackage>${base-package}.api</apiPackage>
 							<modelPackage>${base-package}.api.model</modelPackage>
         					<configOptions>
+								<configPackage>${base-package}.configuraion</configPackage>
 								<delegatePattern>true</delegatePattern>
 								<useTags>true</useTags>
+								<dateLibrary>java8</dateLibrary>
 					        </configOptions>							
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>build-helper-maven-plugin</artifactId>
+				<version>3.3.0</version>
+				<executions>
+					<execution>
+						<id>add-source</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>add-source</goal>
+						</goals>
+						<configuration>
+							<sources>
+								<source>${project.build.directory}/generated-sources/openapi/src/main/java</source>
+							</sources>
 						</configuration>
 					</execution>
 				</executions>
