@@ -18,7 +18,7 @@ public class CarsMockService {
   private static List<Car> mockDb;
   
   static {
-    mockDb = new ArrayList<Car>();
+    mockDb = new ArrayList<>();
     mockDb.add(new Car(1L, "Mazda", "6", "red"));
     mockDb.add(new Car(2L, "Mazda", "3", "green"));
     mockDb.add(new Car(3L, "Infinity", "Q50", "gray"));
@@ -40,8 +40,7 @@ public class CarsMockService {
   }
 
   public long add(Car car) {
-    long newId = generateNewId();
-    car.setId(newId);
+    car.setId(generateNewId());
     mockDb.add(car);
     return newId;
   }
@@ -55,7 +54,7 @@ public class CarsMockService {
   
   public void update(Car car) throws NotFoundException {
     Car carToUpdate = mockDb.stream()
-        .filter(c -> c.getId() == car.getId()).findFirst()
+        .filter(c -> c.getId().equals(car.getId())).findFirst()
         .orElseThrow(() -> new NotFoundException(ApiResponseMessage.ERROR, "Car not found."));
         
     carToUpdate.setBrand(car.getBrand());
@@ -65,7 +64,7 @@ public class CarsMockService {
   
   public void replace(long id, Car car) throws NotFoundException {
     Car carToReplace = mockDb.stream()
-        .filter(c -> c.getId() == car.getId()).findFirst()
+        .filter(c -> c.getId().equals(car.getId())).findFirst()
         .orElseThrow(() -> new NotFoundException(ApiResponseMessage.ERROR, "Car with id [" 
                 + id + "] not found." ));
         
